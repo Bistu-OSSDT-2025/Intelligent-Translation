@@ -1,0 +1,21 @@
+{
+  "name": "intelligent-translation",
+  "version": "1.0.0",
+  "description": "A multi-language real-time translation tool",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=8080",
+    "build": "echo \"Error: no build script configured\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "i18next": "^3.5.0",
+    "live-server": "^1.2.1"
+  }
+}
