@@ -1,0 +1,15 @@
+{
+  "name": "intelligent-translation-frontend",
+  "version": "1.0.0",
+  "description": "Frontend of Intelligent Translation System",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "npm run build",
+    "watch": "npm run watch"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "vue": "^3.2.41"
+  }
+}
